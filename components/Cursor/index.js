@@ -1,17 +1,17 @@
-import React, { useEffect, useState } from "react";
-import CustomCursor from "custom-cursor-react";
-import "custom-cursor-react/dist/index.css";
-import { useTheme } from "next-themes";
+import React, { useEffect, useState } from 'react';
+import CustomCursor from 'custom-cursor-react';
+import 'custom-cursor-react/dist/index.css';
+import { useTheme } from 'next-themes';
 
 const Cursor = () => {
   const theme = useTheme();
   const [mount, setMount] = useState();
 
   const getCusomColor = () => {
-    if (theme.theme === "dark") {
-      return "#fff";
-    } else if (theme.theme === "light") {
-      return "#000";
+    if (theme.theme === 'dark') {
+      return '#fff';
+    } else if (theme.theme === 'light') {
+      return '#000';
     }
   };
 
@@ -22,8 +22,8 @@ const Cursor = () => {
     <>
       {mount && (
         <CustomCursor
-          targets={[".link"]}
-          customClass="custom-cursor"
+          targets={['.link']}
+          customClass='custom-cursor'
           dimensions={30}
           fill={getCusomColor()}
           smoothness={{
