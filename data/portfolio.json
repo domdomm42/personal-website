@@ -5,9 +5,9 @@
   "headerTaglineThree": "I am a Software Developer",
   "headerTaglineFour": "",
   "showCursor": true,
-  "showBlog": true,
+  "showBlog": false,
   "darkMode": true,
-  "showResume": true,
+  "showResume": false,
   "socials": [
     {
       "id": "1",
@@ -35,87 +35,61 @@
         { "name": "Material UI", "icon": "images/materialui-logo.png" },
         { "name": "FastAPI", "icon": "images/fastapi-logo.svg" },
         { "name": "PostgreSQL", "icon": "images/postgres-logo.png" },
-        { "name": "Azure", "icon": "images/azure-logo.png" }
+        { "name": "Azure", "icon": "images/azure-logo.png" },
+        { "name": "HTML", "icon": "images/html.png" },
+        { "name": "CSS", "icon": "images/css.png" },
+        { "name": "Javascript", "icon": "images/javascript.png" }
       ]
     },
     {
       "id": "2",
-      "title": "Project Two",
-      "description": "Web Development",
-      "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/",
+      "title": "Éclair-Mania",
+      "description": "Éclair-Mania is a Java-based maze game created with JDK 11, offering players a challenging dungeon escape scenario. Throughout the game, players confront various enemies and must use strategy and skill to overcome them. By collecting resources and constructing tools, players enhance their abilities to navigate through complex mazes.",
+      "imageSrc": "https://i.imgur.com/nzRnh43.png",
+      "url": "https://github.com/domdomm42/Eclair-Mania",
       "skills": [
-        "Python 3",
-        "React",
-        "Material UI",
-        "FastAPI",
-        "PostgreSQL",
-        "Azure"
+        { "name": "Java", "icon": "images/java.png" },
+        { "name": "React", "icon": "images/react-icon.svg" },
+        { "name": "HTML", "icon": "images/html.png" },
+        { "name": "CSS", "icon": "images/css.png" },
+        { "name": "Javascript", "icon": "images/javascript.png" }
       ]
     },
     {
       "id": "3",
-      "title": "Project Three",
-      "description": "Design",
-      "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/",
+      "title": "Streams",
+      "description": "A communication tool written in Python that gives user the ability to message on another as well as create channels for collaborations. Features here are akin to similar existing applications such as Microsoft Teams and Discord.",
+      "imageSrc": "https://i.imgur.com/pN99xT6.png",
+      "url": "https://github.com/domdomm42/Streams",
       "skills": [
-        { "name": "Python 3", "icon": "images/python-logo.svg" },
-        { "name": "React" },
-        { "name": "Material UI" },
-        { "name": "FastAPI" },
-        { "name": "PostgreSQL" },
-        { "name": "Azure" }
+        { "name": "Python 3", "icon": "images/python-logo.png" },
+        { "name": "Flask", "icon": "images/flask.png" }
       ]
     },
     {
       "id": "4",
-      "title": "Project Four",
-      "description": "Marketing",
-      "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/",
+      "title": "AirBrb",
+      "description": "A basic frontend implementation of the popular app AirBnB, this implementation contains the fundamental logic in AirBnB but with different designs taken and modified from MaterialUI",
+      "imageSrc": "https://i.imgur.com/BIQUGE4.png",
+      "url": "https://github.com/domdomm42/airbrb",
       "skills": [
-        "Python 3",
-        "React",
-        "Material UI",
-        "FastAPI",
-        "PostgreSQL",
-        "Azure"
+        { "name": "HTML", "icon": "images/html.png" },
+        { "name": "CSS", "icon": "images/css.png" },
+        { "name": "Javascript", "icon": "images/javascript.png" },
+        { "name": "React", "icon": "images/react-icon.svg" }
       ]
     },
     {
       "id": "5",
-      "title": "Project Five",
-      "description": "Development",
-      "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/",
-      "skills": [
-        "Python 3",
-        "React",
-        "Material UI",
-        "FastAPI",
-        "PostgreSQL",
-        "Azure"
-      ]
-    },
-    {
-      "id": "6",
-      "title": "Project Six",
-      "description": "Design & Development",
-      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/",
-      "skills": [
-        "Python 3",
-        "React",
-        "Material UI",
-        "FastAPI",
-        "PostgreSQL",
-        "Azure"
-      ]
+      "title": "Chicken Archiver",
+      "description": "A file archiver purely written in C to create and extract archives, this app also supports various file operations, such as permission and size listing, and performs data validation to ensure archive integrity.",
+      "imageSrc": "https://i.imgur.com/cl5m147.png",
+      "url": "https://github.com/domdomm42/chicken-archiver",
+      "skills": [{ "name": "C", "icon": "images/c.png" }]
     }
   ],
   "services": [],
-  "aboutpara": "I am a recent UNSW graduate and a lover of learning and technology. I've worked across diverse fields from AI to Cybersecurity. Beyond tech, I'm into perfecting my craft through BJJ, Muay Thai, Boxing, and weightlifting, which complement my tech journey by honing discipline and resilience whilst satiating my thirst for learning.",
+  "aboutpara": "I am a recent UNSW graduate and a lover of learning and technology. I've worked across diverse fields from AI to Cybersecurity. Beyond tech, I'm into perfecting my craft through BJJ, Muay Thai, Boxing, and weightlifting. I find that keeping active helps me not only physically but also improves my mood and mental clarity.",
   "resume": {
     "tagline": "👋  I'm a software engineer, product designer.",
     "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
